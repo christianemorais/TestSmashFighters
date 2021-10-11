@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/onboardFragment">
+    <fragment
+        android:id="@+id/onboardFragment"
+        android:name="com.chrismorais.smashultimatefighters.features.onboarding.OnboardFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding"/>
+    <fragment
+        android:id="@+id/fightersListFragment"
+        android:name="com.chrismorais.smashultimatefighters.features.fighters.FightersListFragment"
+        android:label="fighters_list_fragment"
+        tools:layout="@layout/fighters_list_fragment">
+        <action
+            android:id="@+id/action_fightersListFragment_to_fighterDetailFragment"
+            app:destination="@id/fighterDetailFragment" />
+        <action
+            android:id="@+id/action_fightersListFragment_to_filterFragment"
+            app:destination="@id/filterFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fighterDetailFragment"
+        android:name="com.chrismorais.smashultimatefighters.features.fighters.detail.FighterDetailFragment"
+        android:label="fighter_detail_fragment"
+        tools:layout="@layout/fighter_detail_fragment"/>
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.chrismorais.smashultimatefighters.features.fighters.filter.FilterFragment"
+        android:label="fragment_filter"
+        tools:layout="@layout/fragment_filter" />
+
+    <action
+        android:id="@+id/action_global_fightersListFragment"
+        app:destination="@id/fightersListFragment" />
+</navigation>

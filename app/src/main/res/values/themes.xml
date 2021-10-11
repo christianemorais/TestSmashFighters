@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Splash Screen -->
+    <style name="Theme.SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Theme.SmashUltimateFighters" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/magenta</item>
+        <item name="colorPrimaryVariant">@color/green_light</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@color/yellow</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="Theme.SmashUltimateFighters">
+        <item name="colorAccent">@color/green_light</item>
+    </style>
+
+</resources>

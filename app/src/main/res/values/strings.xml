@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Smash Ultimate - Fighters</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_fighters">Fighters</string>
+    <string name="menu_filter">Filters</string>
+
+    <string name="filter_sort_by">Sort By</string>
+    <string name="filter_price">Price</string>
+
+    <string name="sort_ascending">Ascending</string>
+    <string name="sort_descending">Descending</string>
+    <string name="sort_rate">Rate</string>
+    <string name="sort_downloads">Downloads</string>
+    <string name="sort_stars">Stars</string>
+
+    <string name="button_apply_filters">Apply Filters</string>
+    <string name="button_next">Next</string>
+    <string name="button_get_stared">Get Stared</string>
+
+    <string name="onboard_message_catalog">Access our\nExtended Catalog</string>
+    <string name="onboard_message_universes">Filter Universes</string>
+    <string name="onboard_message_more">And More …</string>
+
+    <string name="fighters_count">Fighters (%1$d)</string>
+
+    <string name="chip_default_all">All</string>
+
+    <string name="downloads_count">%1$s downloads</string>
+
+    <string name="price_format">\u0024 %1$s</string>
+</resources>
